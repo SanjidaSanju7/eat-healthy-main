@@ -32,6 +32,9 @@ button {
     width: 120px;
     font-family: 'Alegreya Sans', sans-serif;
     font-weight: bold;
+    margin-top: 20px;
+    border: none;
+    cursor: ne-resize;
 
 }
 
@@ -44,5 +47,30 @@ button {
 img {
     width: 500px;
     height: auto;
+    margin-left: 200px
+}
 
+.about {
+    background-image: url(images/shapes/7.png);
+    display: flex;
+    margin-top: 40px;
+}
+
+.women {
+    width: 300px;
+    height: auto;
+    margin-left: 200px;
+    margin-top: 50px;
+
+}
+
+.details {
+    text-align: justify;
+    margin-top: 60px;
+    margin-left: 250px;
+
+}
+
+.lorem {
+    color: black;
 }
